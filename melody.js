@@ -72,7 +72,8 @@ Phone.prototype.noteOff = function(){
 var Melody = function(){
     this.array = new Array(10);
     for(i=0;i<this.array.length; i++){
-        this.array[i] = new Phone(0,getRandomArbitary(0,128),getRandomArbitary(0,128),getRandomArbitary(190,1000));//ランダムで仮に引数を入れて実装してみる
+        //ランダムで仮に引数を入れて実装してみる
+        this.array[i] = new Phone(0,getRandomArbitary(0,128),getRandomArbitary(0,128),getRandomArbitary(190,1000));
     }
 }
 
